@@ -1,0 +1,1309 @@
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.linktomain{
+   position: absolute;
+  background-color: none;
+  width: 104px;
+  height: 100px;
+  top:21px;
+  left: 19px;
+  z-index: 1000000;
+}
+
+/********************** 메인페이지 ***********************/
+
+
+.color_main{
+	position: fixed;
+	z-index: -100000000;
+	background-color: #aa825e;
+	width: 100%;
+	height:100%;
+}
+
+
+.svg_main{
+	position: fixed;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+}
+
+.foot_main {
+    position:fixed;
+    text-align: center;
+    bottom:-13vw;
+    margin:0;
+    padding:0;
+    width:100%;
+    fill: transparent;
+	}
+
+.footimg_main {
+	width: 60vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.linktofrontoffamilyphoto{
+  position: absolute;
+  background-color: none;
+  width: 80px;
+  height: 90px;
+  top:170px;
+  left: 30px;
+  z-index: 1000000;
+
+}
+
+
+.linktofrontofbookcase{
+  position: absolute;
+  background-color: none;
+  width: 220px;
+  height: 300px;
+  top:201px;
+  left: 115px;
+  z-index: 1000000;
+
+}
+
+
+
+.linktofrontofchest{
+  position: absolute;
+  background-color: none;
+  width: 235px;
+  height: 250px;
+  top:180px;
+  left: 335px;
+  z-index: 1000000;
+
+}
+
+
+
+.linktofrontofwindow{
+  position: absolute;
+  background-color: none;
+  width: 308px;
+  height: 332px;
+  left: 563px;
+  z-index: 1000000;
+
+}
+
+
+
+
+.linktofrontofplant{
+  position: absolute;
+  background-color: none;
+  top:346px;
+  width: 116px;
+  height: 165px;
+  left: 830px;
+  z-index: 1000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********************** front of plant ***********************/
+
+
+.color_frontofplant{
+	position: fixed;
+	z-index: -100000000;
+	background-color: #aa825e;
+	width: 100%;
+	height:100%;
+}
+
+
+.svg_frontofplant{
+	position: fixed;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+}
+
+
+
+.foot_frontofplant {
+    position:fixed;
+    text-align: center;
+    bottom:-13vw;
+    margin:0;
+    padding:0;
+    width:100%;
+    fill: transparent;
+    z-index: 0;
+
+	}
+
+.footimg_frontofplant {
+  width: 60vw;
+	z-index: 0;
+}
+
+
+.back_frontofplant {
+	position: fixed;
+	z-index: 1000;
+	width: 18%;
+	min-width: 80px;
+	max-width: 200px;
+	margin-left: -1.8vw;
+	margin-top: -1.8vw; 
+}
+
+
+.linktoplantgrowup{
+   position: absolute;
+  background-color: none;
+  top:103px;
+  width: 245px;
+  height: 345px;
+  left: 395px;
+  z-index: 1000000;
+}
+
+
+
+/********************** front of chest ***********************/
+
+
+
+.color_frontofchest{
+	position: fixed;
+	z-index: -100000000;
+	background-color: #aa825e;
+	width: 100%;
+	height:100%;
+}
+
+.svg_frontofchest{
+	position: fixed;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+}
+
+
+
+.foot_frontofchest {
+    position:fixed;
+    text-align: center;
+    bottom:-13vw;
+    margin:0;
+    padding:0;
+    width:100%;
+    fill: transparent;
+
+	}
+
+.footimg_frontofchest {
+  width: 60vw;
+}
+
+
+
+.back_frontofchest {
+	position: fixed;
+	z-index: 1000;
+	width: 18%;
+	min-width: 80px;
+	max-width: 200px;
+	margin-left: -1.8vw;
+	margin-top: -1.8vw; 
+}
+
+
+
+
+
+.linktochestopen{
+   position: absolute;
+  background-color: none;
+  top:90px;
+  width: 463px;
+  height: 355px;
+  left: 270px;
+  z-index: 1000000;
+}
+
+/********************** front of bookcase ***********************/
+
+
+
+.color_frontofbookcase{
+	position: fixed;
+	z-index: -100000000;
+	background-color: #aa825e;
+	width: 100%;
+	height:100%;
+}
+
+.svg_frontofbookcase{
+	position: fixed;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+}
+
+
+
+.foot_frontofbookcase {
+    position:fixed;
+    text-align: center;
+    bottom:-13vw;
+    margin:0;
+    padding:0;
+    width:100%;
+    fill: transparent;
+
+	}
+
+.footimg_frontofbookcase {
+  width: 60vw;
+}
+
+
+
+.back_frontofbookcase{
+	position: fixed;
+	z-index: 1000;
+	width: 18%;
+	min-width: 80px;
+	max-width: 200px;
+	margin-left: -1.8vw;
+	margin-top: -1.8vw; 
+}
+
+
+.linktobookcaseopen{
+   position: absolute;
+  background-color: none;
+  width: 398px;
+  height: 442px;
+  left: 312px;
+  z-index: 1000000;
+}
+
+
+/********************** front of window ***********************/
+
+
+
+.color_frontofwindow{
+	position: fixed;
+	z-index: -100000000;
+	background-color: #aa825e;
+	width: 100%;
+	height:100%;
+}
+
+.svg_frontofwindow{
+	position: fixed;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+}
+
+
+
+.foot_frontofwindow {
+    position:fixed;
+    text-align: center;
+    bottom:-13vw;
+    margin:0;
+    padding:0;
+    width:100%;
+    fill: transparent;
+
+	}
+
+.footimg_frontofwindow {
+  width: 60vw;
+}
+
+
+
+.back_frontofwindow{
+	position: fixed;
+	z-index: 1000;
+	width: 18%;
+	min-width: 80px;
+	max-width: 200px;
+	margin-left: -1.8vw;
+	margin-top: -1.8vw; 
+}
+
+
+
+.linktowindow{
+   position: absolute;
+  background-color: none;
+  width: 741px;
+  height: 196px;
+  left: 133px;
+  z-index: 1000000;
+}
+
+
+/********************** front of familyphoto ***********************/
+
+
+.color_frontoffamilyphoto{
+	position: fixed;
+	z-index: -100000000;
+	background-color: #FFE7C5;
+	width: 100%;
+	height:100%;
+}
+
+
+.back_frontoffamilyphoto
+{
+	position: fixed;
+	z-index: 1000;
+	width: 18%;
+	min-width: 80px;
+	max-width: 200px;
+	margin-left: -1.8vw;
+	margin-top: -1.8vw; 
+}
+
+
+.svg_frontoffamilyphoto{
+	position: fixed;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+}
+
+.linktofamilyphoto{
+   position: absolute;
+  background-color: none;
+  top:46px;
+  width: 320px;
+  height: 243px;
+  left: 330px;
+  z-index: 1000000;
+}
+
+
+
+
+
+/********************** plant grow up ***********************/
+
+
+
+
+
+
+
+
+
+.color_plantgrowup{
+	position: fixed;
+	z-index: -100000000;
+	background-color: #aa825e;
+	width: 100%;
+	height:100%;
+}
+
+.background_plantgrowup{
+	position: fixed;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+}
+
+
+  #squirrelContainer
+{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.squirrel
+{
+    
+    display: none;
+    position: fixed;
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+    
+}
+
+.squirrel.default
+{
+    display: block;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+}
+
+
+
+
+.back_plantgrowup {
+  position: fixed;
+  z-index: 1000;
+  width: 18%;
+  min-width: 80px;
+  max-width: 200px;
+  margin-left: -1.8vw;
+  margin-top: -1.8vw; 
+}
+
+
+
+@media all and (max-width:1008px){
+
+
+.background_plantgrowup{
+  position: fixed;
+  z-index: 0;
+  width: 200%;
+  height: auto;
+  left: -400px;
+
+}
+
+
+
+  #squirrelContainer
+{
+    position: fixed;
+     height: 100vh;
+
+    z-index: 1000;
+    left: -500px;
+}
+
+.squirrel
+{
+    
+    display: none;
+    position: fixed;
+  height: 100vh;
+
+  z-index: 1000;
+  left: -500px;
+    
+}
+
+.squirrel.default
+{
+    display: block;
+  position: fixed;
+    height: 100vh;
+
+  z-index: 1000;
+  left: -500px;
+}
+
+
+
+  
+  #squirrelContainer img
+{
+  top:100px;
+     height: 90vh;
+
+    z-index: 1000;
+    left: 110px;
+}
+
+.squirrel img
+{
+    
+  top:100px;
+    position: fixed;
+  height: 90vh;
+
+  z-index: 1000;
+  left:110px;
+}
+
+.squirrel.default img
+{
+  top:100px;
+  position: fixed;
+    height: 90vh;
+
+  z-index: 1000;
+  left:110px;
+}
+
+
+  
+}
+
+.linktofrontofplantgo
+{
+   position: absolute;
+  background-color: none;
+  width: 104px;
+  height: 100px;
+  top:21px;
+  left: 19px;
+  z-index: 1000000;
+}
+
+
+
+/********************** bookcase open ***********************/
+
+
+.color_bookcaseopen{
+
+	position: fixed;
+	z-index: -100000000;
+	background-color: #aa825e;
+	width: 100%;
+	height:100%;
+}
+
+
+
+.bookcase_bookcaseopen{
+	position: fixed;
+	z-index: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+
+
+.back_bookcaseopen {
+	position: fixed;
+	z-index: 1000;
+	width: 18%;
+	min-width: 80px;
+	max-width: 200px;
+	margin-left: -1.8vw;
+	margin-top: -1.8vw; 
+}
+
+
+
+
+
+
+.book1pop-up {
+  height:auto;
+  width:80%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 23vh;
+left: 10vw;
+right: 10vw;
+}
+
+.book1pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book1pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 4vw;
+}
+span {
+  margin-left:85%;
+  color:#000;
+  font-size:80px;
+  height:9px;
+  padding:0px;
+  cursor:pointer;
+}
+
+
+
+
+
+
+.book2pop-up {
+  height:auto;
+  width:80%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 17vh;
+left: 10vw;
+right: 10vw;
+}
+
+.book2pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book2pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 4vw;
+}
+.book3pop-up {
+  height:auto;
+  width:60%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 5vh;
+left: 20vw;
+right: 10vw;
+}
+
+.book3pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book3pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 3vw;
+}
+.book4pop-up {
+  height:auto;
+  width:80%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 17vh;
+left: 10vw;
+right: 10vw;
+}
+
+.book4pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book4pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 4vw;
+}
+.book5pop-up {
+  height:auto;
+  width:80%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 17vh;
+left: 10vw;
+right: 10vw;
+}
+
+.book5pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book5pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 4vw;
+}
+.book6pop-up {
+  height:auto;
+  width:80%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 14vh;
+left: 10vw;
+right: 10vw;
+}
+
+.book6pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book6pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 4vw;
+}
+
+
+
+
+
+
+
+.book7pop-up {
+  height:auto;
+  width:80%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 14vh;
+left: 10vw;
+right: 10vw;
+}
+
+.book7pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book7pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.book8pop-up {
+  height:auto;
+  width:80%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 17vh;
+left: 10vw;
+right: 10vw;
+}
+
+.book8pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book8pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.book9pop-up {
+  height:auto;
+  width:80%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 14vh;
+left: 10vw;
+right: 10vw;
+}
+.book9pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book9pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 4vw;
+}
+
+
+
+
+
+
+
+
+
+.book10pop-up {
+  height:auto;
+  width:80%;
+  background:#fff;
+  position:absolute;
+  z-index:1;
+  border-radius:50px;
+  box-shadow:0 0 50px #000;
+margin-top: 20vh;
+left: 10vw;
+right: 10vw;
+}
+
+.book10pop-up-container{
+  height:9000px;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:absolute;
+  z-index:-1;
+  margin-top:-450px;
+}
+
+
+.book10pop-up-text img {
+  width:90%;
+  height: auto;
+  text-align:center;
+  margin-bottom: 4vw;
+ margin-left: 4vw;
+}
+
+
+.linktofrontofbookcasego
+{
+   position: absolute;
+  background-color: none;
+  width: 104px;
+  height: 100px;
+  top:21px;
+  left: 19px;
+  z-index: 1000000;
+}
+
+/********************** familyphoto ***********************/
+
+
+
+.color_photo{
+
+	position: fixed;
+	z-index: -100000000;
+	background-color: #FFE7C5;
+	width: 100%;
+	height:100%;
+}
+
+.familyphoto_photoopen{
+	position: fixed;
+	z-index: 0;
+	width: 100vw;
+	height: auto;
+}
+
+
+.back_familyphoto {
+	position: fixed;
+	z-index: 1000;
+	width: 18%;
+	min-width: 80px;
+	max-width: 200px;
+	margin-left: -1.8vw;
+	margin-top: -1.8vw; 
+}
+
+.on-off {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  position: fixed;
+  top: 76.3vh;
+  left: 7.8vw;
+}
+
+
+.back {
+  width: 150px;
+  height: 60px;
+  border: 5px solid black;
+  background-color: lightgreen;
+  position: fixed;
+  transition: background-color 300ms linear;
+}
+
+.front {
+  width: 60px;
+  height: 60px;
+  border: 5px solid black;
+  position: absolute;
+  left: 0;
+  background-color: #FDFBE0;
+  transition: left 300ms ease-in-out, right 300ms ease-in-out;
+}
+.front:hover {
+  cursor: pointer;
+}
+
+
+#imgBtn1{
+	position: absolute;
+	top: -68vh;
+	left: 4.4vw;
+	z-index: 30000;
+	
+}
+
+
+.linktofrontoffamilyphotogo
+{
+   position: absolute;
+  background-color: none;
+  width: 104px;
+  height: 100px;
+  top:21px;
+  left: 19px;
+  z-index: 1000000;
+}
+
+/********************** chest open ***********************/
+
+
+*{
+    margin: 0;
+
+}
+body {
+  position: relative;
+   background-color:  #BA7B47;
+
+}
+
+.fixedQuick {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height:100%;
+}
+
+
+
+.bottomchest_chestopen{
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+
+.topchest_chestopen{
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+
+.bottomstick{
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+}
+.topstick{
+  position: absolute;
+  z-index: 15;
+  width: 100%;
+}
+
+
+
+.inside_bottomchest_chestopen{
+  position: relative;
+    z-index: -15;
+  background-color: #BA7B47;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+    padding:0;
+  width: 88.5vw;
+  bottom: -750px;
+
+}
+
+.inside_topchest_chestopen{
+  position: relative;
+    z-index: 15;
+  background-color: #BA7B47;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+    padding:0;
+  width: 88.5vw;
+  bottom: -750px;
+
+}
+
+.topbackground{
+  position:absolute;
+  z-index: 16;
+  width: 100%;
+  height: 100%;
+}
+.img_soxgarender{
+
+  width: 80vw;
+}
+
+
+
+.back_chestopen {
+  position: fixed;
+  z-index: 1000;
+  width: 18%;
+  min-width: 80px;
+  max-width: 200px;
+  margin-left: -1.8vw;
+  margin-top: -1.8vw; 
+}
+
+#imageOne{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+  margin-top: 100px;
+}
+
+
+#imageTwo{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+}
+
+
+
+#imageThree{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+
+}
+
+
+#imageFour{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+
+}
+
+#imageFive{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+}
+
+
+
+
+#imageSix{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+}
+
+
+
+
+
+#imageSeven{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+}
+
+
+#imageEight{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+}
+
+
+#imageNine{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+}
+
+
+
+#imageTen{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+}
+
+
+
+
+#imageTwelve{
+  position: relative;
+  z-index: 1000;
+  left: 15vw;
+  width: 70%;
+}
+
+
+
+
+#shirt{
+  position: relative;
+  z-index: -14;
+  width: 103%;
+}
+
+
+
+
+#jeans{
+  position: relative;
+  z-index: -14;
+  width: 103%;
+}
+
+#shoe{
+    position: relative;
+  z-index: -14;
+  width: 105%;
+
+}
+
+.linktofrontofchestgo
+{
+   position: fixed;
+  background-color: none;
+  width: 104px;
+  height: 100px;
+  top:21px;
+  left: 19px;
+  z-index: 1000000;
+}
+

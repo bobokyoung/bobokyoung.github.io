@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+<style>
+	.squirrel img{
+		bottom: -1100px;
+		position: fixed;
+	}
+</style>
+</head>
+<body>
+
+<a class="link" href="frontofplant.html"><div class="linktofrontofplantgo" ></div></a>
+<!-- <div class="test"></div>
+ -->
+<div class="room">
+	<img src="./png/background_plantgrowup.svg">
+</div>
+
+<div class="squirrel" id="squirrel1">
+	<img src="./png/plantgrowup1.png">
+</div>
+
+<div class="squirrel" id="squirrel2">
+	<img src="./png/plantgrowup2.png">
+</div>
+
+<div class="squirrel" id="squirrel3">
+	<img src="./png/plantgrowup3.png">
+</div>
+
+<div class="squirrel" id="squirrel4">
+	<img src="./png/plantgrowup4.png">
+</div>
+
+<div class="squirrel" id="squirrel5">
+	<img src="./png/plantgrowup5.png">
+</div>
+
+<div class="squirrel" id="squirrel6">
+	<img src="./png/plantgrowup6.png">
+</div>
+
+<div class="squirrel" id="squirrel7">
+	<img src="./png/plantgrowup7.png">
+</div>
+
+<div class="squirrel" id="squirrel8">
+	<img src="./png/plantgrowup8.png">
+</div>
+
+<div class="squirrel" id="squirrel9">
+	<img src="./png/plantgrowup9.png">
+</div>
+
+<div class="squirrel" id="squirrel10">
+	<img src="./png/plantgrowup10.png">
+</div>
+
+<div class="squirrel" id="squirrel11">
+	<img src="./png/plantgrowup11.png">
+</div>
+
+<div class="squirrel" id="squirrel12">
+	<img src="./png/plantgrowup12.png">
+</div>
+
+<div class="squirrel" id="squirrel13">
+	<img src="./png/plantgrowup13.png">
+</div>
+
+<div class="squirrel" id="squirrel14">
+	<img src="./png/plantgrowup14.png">
+</div>
+<div class="squirrel" id="squirrel15">
+	<img src="./png/plantgrowup15.png">
+</div>
+<div class="squirrel" id="squirrel16">
+	<img src="./png/plantgrowup16.png">
+</div>
+
+<div class="squirrel" id="squirrel17">
+	<img src="./png/plantgrowup17.png">
+</div>
+
+<div class="squirrel" id="squirrel18">
+	<img src="./png/plantgrowup18.png">
+</div>
+
+<div class="squirrel" id="squirrel19">
+	<img src="./png/plantgrowup19.png">
+</div>
+
+<div class="squirrel" id="squirrel20">
+	<img src="./png/plantgrowup20.png">
+</div>
+
+<div class="squirrel" id="squirrel21">
+	<img src="./png/plantgrowup21.png">
+</div>
+
+<div class="squirrel" id="squirrel22">
+	<img src="./png/plantgrowup22.png">
+</div>
+
+
+<g class="back_plantgrowup">
+    <a href="frontofplant.html">
+    <svg  xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 100 100" fill="none" fill-rule="evenodd" >
+<path id="XMLID_1_" style="fill:#AED79D;stroke:#FFFFFF;stroke-miterlimit:10;" d="M39.02,43.821v6.228
+    c0,0.451-0.518,0.706-0.875,0.431L20.94,37.246c-0.277-0.213-0.284-0.629-0.014-0.851l17.205-14.151
+    c0.355-0.292,0.889-0.039,0.889,0.42v7.726c0,0.3,0.244,0.544,0.544,0.544h20.668h0c10.782,0,19.522,8.74,19.522,19.522v5.809
+    c0,12.273-9.949,22.222-22.222,22.222H30.34c-0.3,0-0.544-0.244-0.544-0.544V65.727c0-0.3,0.244-0.544,0.544-0.544h27.078
+    c5.609,0,10.156-4.547,10.156-10.156V51.78c0-4.648-3.759-8.42-8.407-8.436l-19.601-0.067C39.265,43.276,39.02,43.52,39.02,43.821z"
+    />
+</svg>
+</a>
+</g>
+
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #aa825e;
+}
+
+.room{
+	overflow: hidden;
+	position: fixed;
+	width: 200%;
+	left: -500px;
+}
+
+.squirrel img {
+    width: 100%;
+    height: auto;
+}
+
+.squirrel {
+	display: none;
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 15vw;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+#squirrel1{
+	display: block;
+}
+
+
+.linktofrontofplantgo
+{
+   position: absolute;
+  background-color: none;
+  width: 104px;
+  height: 100px;
+  top:21px;
+  left: 19px;
+  z-index: 1000000;
+}
+
+
+
+
+.back_plantgrowup {
+  position: fixed;
+  z-index: 1000;
+  width: 18%;
+  min-width: 80px;
+  max-width: 200px;
+  margin-left: -1.8vw;
+  margin-top: -1.8vw; 
+}
+
+
+</style>
+
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script>
+	
+	$(document).ready(function () {	
+		$("#squirrel1").click(function(){
+			$("#squirrel1").hide();
+			$("#squirrel2").show();
+		});
+
+		$("#squirrel2").click(function(){
+			$("#squirrel2").hide();
+			$("#squirrel3").show();
+		});
+
+
+
+$("#squirrel3").click(function(){
+
+$("#squirrel3").hide();
+
+$("#squirrel4").show();
+
+});
+
+
+
+$("#squirrel4").click(function(){
+
+$("#squirrel4").hide();
+
+$("#squirrel5").show();
+
+});
+
+
+
+$("#squirrel5").click(function(){
+
+$("#squirrel5").hide();
+
+$("#squirrel6").show();
+
+});
+
+
+
+$("#squirrel6").click(function(){
+
+$("#squirrel6").hide();
+
+$("#squirrel7").show();
+
+});
+
+
+
+$("#squirrel7").click(function(){
+
+$("#squirrel7").hide();
+
+$("#squirrel8").show();
+
+});
+
+
+
+$("#squirrel8").click(function(){
+
+$("#squirrel8").hide();
+
+$("#squirrel9").show();
+
+});
+
+
+
+$("#squirrel9").click(function(){
+
+$("#squirrel9").hide();
+
+$("#squirrel10").show();
+
+});
+
+
+
+$("#squirrel10").click(function(){
+
+$("#squirrel10").hide();
+
+$("#squirrel11").show();
+
+});
+
+
+
+$("#squirrel11").click(function(){
+
+$("#squirrel11").hide();
+
+$("#squirrel12").show();
+
+});
+
+
+
+$("#squirrel12").click(function(){
+
+$("#squirrel12").hide();
+
+$("#squirrel13").show();
+
+});
+
+
+
+$("#squirrel13").click(function(){
+
+$("#squirrel13").hide();
+
+$("#squirrel14").show();
+
+});
+
+
+
+$("#squirrel14").click(function(){
+
+$("#squirrel14").hide();
+
+$("#squirrel15").show();
+
+});
+
+
+
+$("#squirrel15").click(function(){
+
+$("#squirrel15").hide();
+
+$("#squirrel16").show();
+
+});
+
+
+
+$("#squirrel16").click(function(){
+
+$("#squirrel16").hide();
+
+$("#squirrel17").show();
+
+});
+
+
+
+$("#squirrel17").click(function(){
+    $("#squirrel17").hide();
+    $("#squirrel18").show();
+});
+
+
+
+$("#squirrel18").click(function(){
+    $("#squirrel18").hide();
+    $("#squirrel19").show();
+});
+
+
+
+$("#squirrel19").click(function(){
+
+$("#squirrel19").hide();
+
+$("#squirrel20").show();
+
+});
+
+
+
+$("#squirrel20").click(function(){
+
+$("#squirrel20").hide();
+
+$("#squirrel21").show();
+
+});
+
+
+
+$("#squirrel21").click(function(){
+
+$("#squirrel21").hide();
+
+$("#squirrel22").show();
+
+});
+
+
+
+$("#squirrel22").click(function(){
+
+$("#squirrel22").hide();
+
+$("#squirrel1").show();
+
+});
+	});
+
+</script>
+
+
+</body>
+</html>
